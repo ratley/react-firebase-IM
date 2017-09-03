@@ -1,17 +1,17 @@
 {
 	"name": "bim",
-	"author": "bralley",
-	"description": "x",
+	"author": "Bradley Inniss",
+	"description": "Instant messenger made with React and Firebase.",
 	"version": "0.1.0",
 	"private": true,
 	"build": {
 		"appId": "com.inniss.bim",
-		"productName": "bIM v0.666",
+		"productName": "bIM",
 		"asar": "false",
 
 		"files": ["build/**/*", "src/main.js", "node_modules"],
 		"dmg": {
-			"title": "bIM v0.666",
+			"title": "bIM",
 			"contents": [
 				{
 					"x": 130,

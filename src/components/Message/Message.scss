@@ -1,0 +1,23 @@
+.message {
+	border-bottom: 1px solid #b2dfdb;
+	padding: 15px 0;
+
+	span {
+		font-weight: bold;
+		font-family: avenir;
+		font-weight: light;
+		font-size: 1.7vh;
+		color: #00796b;
+	}
+	.time {
+		padding-left: 5px;
+		color: #beb6b6;
+	}
+	h3 {
+		margin: 0;
+		font-weight: 200;
+		font-size: 2vh;
+		font-family: avenir;
+		font-weight: lighter;
+	}
+}

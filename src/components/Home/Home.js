@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import firebase from '../../firebase.js';
+import Message from '../Message/Message.js';
 
 import './Home.scss';
 
@@ -91,13 +92,12 @@ class Home extends Component {
 					<ul>
 						{this.state.messages.map(message => {
 							return (
-								<li key={message.id} className="message">
-									<span>
-										{message.user}
-										<span className="time">{message.time}</span>
-									</span>
-									<h3>{message.content}</h3>
-								</li>
+								<Message
+									key={message.id}
+									user={message.user}
+									time={message.time}
+									content={message.content}
+								/>
 							);
 						})}
 					</ul>

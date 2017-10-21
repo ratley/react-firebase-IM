@@ -17,7 +17,7 @@ If you choose to use this you'll have to paste your Firebase config in `src/fire
 #### Package
     $ yarn dist
 
-##Images
+## Images
 
 I'll be adding more images over time as I continue to work on this project.
 
